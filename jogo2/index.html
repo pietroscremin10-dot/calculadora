@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Jogo 2 — Acerta o Alvo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game">
+    <header class="game-header">
+      <h1>Acerta o Alvo</h1>
+      <div class="info">
+        <div>Tempo: <span id="time">30</span>s</div>
+        <div>Pontuação: <span id="score">0</span></div>
+      </div>
+    </header>
+
+    <section id="arena" class="arena" aria-label="Área do jogo">
+      <!-- target injected here -->
+    </section>
+
+    <footer class="controls">
+      <button id="startBtn">Iniciar</button>
+      <button id="resetBtn">Reiniciar</button>
+    </footer>
+
+    <div id="message" class="message" aria-live="polite"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
