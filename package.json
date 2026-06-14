@@ -1,0 +1,17 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "Calculadora simples em HTML, CSS e JavaScript",
+  "main": "calculadora.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server ."
+  },
+  "keywords": ["calculadora", "html", "javascript"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "serve": "^14.2.0"
+  }
+}
